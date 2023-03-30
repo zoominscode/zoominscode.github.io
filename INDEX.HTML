@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8f1bd384ff.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="https://logos.textgiraffe.com/logos/logo-name/33584894-designstyle-sharks-l.png" class="logo">
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#services">Services</a></li>
+                    <li> <a href="#portfolio">Portfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+
+                    <i class="fas  fa-times" onclick="closemenu()"></i>
+
+
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Devloper,</p>
+                <P>Photographer</P>
+                <h1> Hi, I'm <span>Manish </span> <br>Kumar raj From India </h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- .......................About.................. -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="MANISH.jpeg">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A result-oriented and self-motivated B.Tech graduate, looking for a challenging career where 
+                        I can implement my coding knowledge so that further enhance my skills.
+                         Strong knowledge of HTML, CSS, JAVASCRIPT, Java, DSA, DBMS, C#. I am pursuing my B.tech degree from
+                        Techno main salt lake . </p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('eduction')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span> Software Devloper</span><br>Using Java </li>
+                            <li><span>Photographer</span><br>As a street and nature Photographer</li>
+                            <li><span> Web Devlopment</span><br>Web app Devlopment</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span> EX. photographer</span><br>Infocus sub-club(GEEKONIX CLUB TMSL) </li>
+                            <li><span>Python</span><br>Weather prediction </li>
+                            <li><span> Html</span><br>sate india.com</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="eduction">
+                        <ul>
+                            <li><span> 10th From D.P.S Madhubani Bihar</span><br>2017 </li>
+                            <li><span>12th From S.K +2 Vidyamandir chakai</span><br>2020</li>
+                            <li><span> B.tech (information Technology) From TECHNO MAIN SALT LAKE</span><br>2024</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!--  ----------------- Services-------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p> N/A</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>PHOTOGRAPHY</h2>
+                    <p> NIKON D3300 </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-uncharted"></i>
+                    <h2>Software Devloper</h2>
+                    <p> MAC OS USER </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-----------=----Portfolio-------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work 1.png">
+                    <div class="layer">
+                        <h3>Food Website</h3>
+                        <p>Performed an analysis on data and security of website.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work 2.png">
+                    <div class="layer">
+                        <h3>PHOTOGRAPHY</h3>
+                        <p>Linked it with instagram</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work 3.png">
+                    <div class="layer">
+                        <h3>Phishing URL Detection Software</h3>
+                        <p>A Project that helps to distinguish Malicious URLs and helps Users to
+                            not fall in the traps of hackers and prevent Data theft. </p>
+                        <a href="https://github.com"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+
+    <!----------------------contect----------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>manishdivya17@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>8789908053</p>
+                    <div class="social-icons">
+
+
+                        <a href="https://www.facebook.com/profile.php?id=100024663515101&mibextid=ZbWKwL/"> <i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/zoomins__photos?t=52Bo0s9flptHQ8CsYMiRDg&s=08/"> <i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://instagram.com/zoomins__photos?igshid=YmMyMTA2M2Y=/"> <i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/manish-kumar-raj-268307219//"> <i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Manish_resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Manish. Made with <i class="fa-solid fa-heart"></i> by Manish Kumar</p>
+        </div>
+    </div>
+
+
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyftXcjKytnHlZHg04TDm3HMjPG_-xfKaKSiNYkvPqt4pUeDE3-hLZWvytnnWgXv62TdQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+
+                    }, 5000)
+                    form.reset()
+                })
+
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
